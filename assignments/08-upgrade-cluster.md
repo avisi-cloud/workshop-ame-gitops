@@ -10,3 +10,7 @@ In assignment 1 you have created your cluster using Kubernetes `v1.23` by select
 ## References
 
 - [Upgrading an AME cluster](https://docs.avisi.cloud/docs/how-to/how-to-update/)
+
+## Next assignment
+
+[09. Create snapshots](/assignments/09-create-snapshots.md)

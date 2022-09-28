@@ -24,3 +24,7 @@ Labels starting with the following suffix cannot be configured:
 
 - `k8s.avisi.cloud`
 - `kubernetes.io`
+
+## Next assignment
+
+[06. Connect to application](/assignments/06-connect-to-application.md)

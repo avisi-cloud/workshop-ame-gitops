@@ -10,7 +10,7 @@ This repository contains instructions for the AME & GitOps workshop.
 
 - [01. Create cluster](assignments/01-create-cluster.md)
 - [02. Configure acloud](assignments/02-configure-acloud.md)
-- [03. Connect to cluster](assignments/03-connect-to-cluster.md)
+- [03. view audit log](assignments/03-view-audit-log.md)
 - [04. Install fluxcd](assignments/04-install-fluxcd.md)
 - [05. Change node pool](assignments/05-change-node-pool.md)
 - [06. Connect to application](assignments/06-connect-to-application.md)

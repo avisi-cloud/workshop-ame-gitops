@@ -55,3 +55,7 @@ deployment "notification-controller" successfully rolled out
 ◎ waiting for cluster sync
 ✔ bootstrap finished
 ```
+
+## Next assignment
+
+[05. Change node pool](/assignments/05-change-node-pool.md)

@@ -27,3 +27,7 @@ Copy the address of the `LoadBalancer` and visit it through your Browser to conn
 
 - [kubernetes.io](https://kubernetes.io/docs/concepts/services-networking/service/#loadbalancer)
 - [ingress-nginx](https://kubernetes.github.io/ingress-nginx/)
+
+## Next assignment
+
+[07. Configure grafana](/assignments/07-configure-grafana.md)

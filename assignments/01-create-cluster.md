@@ -14,3 +14,7 @@ On the create cluster page, you can enter the following information:
 Here is an example:
 
 ![create cluster example](/img/create-cluster-example.png)
+
+## Next assignment
+
+[02. Configure acloud](/assignments/02-configure-acloud.md)

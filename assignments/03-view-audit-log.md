@@ -8,3 +8,7 @@ There are two places where you can find audit events in the Console.
 ## References
 
 - [audit events](https://console.avisi.cloud/audit-events)
+
+## Next assignment
+
+[04. Install fluxcd](/assignments/04-install-fluxcd.md)

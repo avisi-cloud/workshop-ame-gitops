@@ -20,3 +20,7 @@ You can use our acloud CLI tool to;
 ## References
 
 - [Acloud introduction](https://docs.avisi.cloud/references/acloud/)
+
+## Next assignment
+
+[03. view Audit log](/assignments/03-view-audit-log.md)
