@@ -24,6 +24,33 @@ This repository contains instructions for the AME & GitOps workshop.
 - [kubernetes.io](https://kubernetes.io)
 - [Avisi Cloud Console](https://console.avisi.cloud)
 
+### Installed tooling
+
+#### kubectl
+
+```bash
+brew install kubectl
+```
+
+*[Install kubectl on MacOS](https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/)*
+
+
+#### fluxcd
+
+```bash
+brew install fluxcd/tap/flux
+```
+
+*[Install fluxcd](https://fluxcd.io/flux/installation/)*
+
+#### acloud & acloud-toolkit
+
+```bash
+brew install avisi-cloud/tools/acloud avisi-cloud/tools/acloud-toolkit
+```
+
+*[Install acloud](https://docs.avisi.cloud/references/acloud/)*
+
 ---
 
 ### Avisi Cloud

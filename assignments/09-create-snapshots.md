@@ -1,6 +1,12 @@
 # 9. Create snapshots
 
-Creating and managing back-ups for persistent data within a Kubernetes cluster is extremly important. There are multiple strategies and back-up tools available within Kubernetes. The easiest solution to use within AME Kubernetes is by using `VolumeSnapshots`. Using our `acloud-toolkit` CLI tool you can easily create and restore snapshots of volumes.
+Creating and managing back-ups for persistent data within a Kubernetes cluster is extremly important. There are multiple strategies and back-up tools available within Kubernetes. The easiest solution to use within AME Kubernetes is by using `VolumeSnapshots`. Using our [acloud-toolkit](https://docs.avisi.cloud/references/acloud-toolkit/) CLI tool you can easily create and restore snapshots of volumes.
+
+Install the acloud-toolkit using Brew:
+
+```bash
+brew install avisi-cloud/tools/acloud-toolkit
+```
 
 ## Tasks
 
