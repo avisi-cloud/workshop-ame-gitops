@@ -33,3 +33,24 @@ acloud-toolkit snapshot ls -n <namespace>
 ```bash
 kubectl get VolumeSnapshot -n <namespace>
 ```
+
+### Using acloud-toolkit snapshot create
+
+```bash
+❯ acloud-toolkit snapshot create -h
+create creates a snapshot for a pvc
+
+Usage:
+  acloud-toolkit snapshot create <snapshot> [flags]
+
+Examples:
+
+acloud-toolkit snapshot create my-snapshot --pvc my-pvc
+
+
+Flags:
+  -h, --help                    help for create
+  -n, --namespace string        If present, the namespace scope for this CLI request. Otherwise uses the namespace from the current Kubernetes context
+  -p, --pvc string              Name of the persistent volume to snapshot
+  -s, --snapshot-class string   CSI volume snapshot class. If empty, use default volume snapshot class
+```
