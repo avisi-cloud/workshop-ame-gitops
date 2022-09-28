@@ -16,6 +16,17 @@ By creating access tokens for your Observability data, you are able to configure
 - [Add a grafana datasource](https://grafana.com/docs/grafana/latest/datasources/add-a-data-source/)
 - [Grafana datasource management](https://grafana.com/docs/grafana/latest/administration/data-source-management/)
 
+### Create access token
+
+1. Select create new access token
+2. Fill out the following details:
+    - Name: grafana
+    - IP Whitelisting: 0.0.0.0/0 (default)
+    - Allowed Scopes: Configure the scope that this token has access to.
+3. Select create token
+    > Pay attention: Make sure you copy this token to your clipboard, because you'll need it in a few steps.
+4. Click continue
+
 ## Next assignment
 
 [08. Upgrade cluster](/assignments/08-upgrade-cluster.md)
