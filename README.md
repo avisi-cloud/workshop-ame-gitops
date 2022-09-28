@@ -15,7 +15,7 @@ This repository contains instructions for the AME & GitOps workshop.
 - [05. Change node pool](assignments/05-change-node-pool.md)
 - [06. Connect to application](assignments/06-connect-to-application.md)
 - [07. Configure grafana](assignments/07-configure-grafana.md)
-- [08. Update cluster](assignments/08-update-cluster.md)
+- [08. Upgrade cluster](assignments/08-upgrade-cluster.md)
 - [09. Create snapshots](assignments/09-create-snapshots.md)
 
 ### References
