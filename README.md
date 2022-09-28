@@ -31,3 +31,7 @@ This repository contains instructions for the AME & GitOps workshop.
 Avisi Cloud Kubernetes is a Kubernetes platform with built-in compliance and day-2 operational tooling.
 
 [![Avisi Cloud CNCF member](/img/avisi-cloud-cncf-member.jpeg)](https://www.avisi.nl/en-gb/blog/avisi-is-trotse-silver-member-van-cncf?__hstc=205717955.b5eb8201cfb102e5a1051fa1bc9bbd78.1656488150292.1663879770786.1664302257949.30&__hssc=205717955.4.1664302257949&__hsfp=2607337039)
+
+## License
+
+[MIT](LICENSE)

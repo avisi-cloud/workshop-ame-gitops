@@ -9,6 +9,11 @@ On the create cluster page, you can enter the following information:
 - Name: enter your cluster name
 - Configure a node pool with the name `workers`, type `t3.large` and size `3`.
 
+## References
+
+- [docs.avisi.cloud Console](https://docs.avisi.cloud/product/console/)
+- [how-to create a new cluster](https://docs.avisi.cloud/docs/how-to/how-to-create-a-new-cluster/)
+
 ### Example 
 
 Here is an example:
