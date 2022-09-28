@@ -8,16 +8,15 @@ This repository contains instructions for the AME & GitOps workshop.
 
 ### Assigments
 
-- [01. create cluster](assignments/01-create-cluster.md)
-- [02. configure acloud](assignments/02-configure-acloud.md)
-- [03. connect to cluster](assignments/03-connect-to-cluster.md)
-- [04. install fluxcd](assignments/04-install-fluxcd.md)
-- [05. change node pool](assignments/05-change-node-pool.md)
-- [06. connect to application](assignments/06-connect-to-application.md)
-- [07. configure grafana](assignments/07-configure-grafana.md)
-- [08. update cluster](assignments/08-update-cluster.md)
-- [09. create snapshots](assignments/09-create-snapshots.md)
-
+- [01. Create cluster](assignments/01-create-cluster.md)
+- [02. Configure acloud](assignments/02-configure-acloud.md)
+- [03. Connect to cluster](assignments/03-connect-to-cluster.md)
+- [04. Install fluxcd](assignments/04-install-fluxcd.md)
+- [05. Change node pool](assignments/05-change-node-pool.md)
+- [06. Connect to application](assignments/06-connect-to-application.md)
+- [07. Configure grafana](assignments/07-configure-grafana.md)
+- [08. Update cluster](assignments/08-update-cluster.md)
+- [09. Create snapshots](assignments/09-create-snapshots.md)
 
 ### References
 
