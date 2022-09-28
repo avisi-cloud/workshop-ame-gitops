@@ -11,11 +11,6 @@ By creating access tokens for your Observability data, you are able to configure
 - Add Grafana Datasource
 - View Dashboards in Grafana
 
-## References
-
-- [Add a grafana datasource](https://grafana.com/docs/grafana/latest/datasources/add-a-data-source/)
-- [Grafana datasource management](https://grafana.com/docs/grafana/latest/administration/data-source-management/)
-
 ### Create access token
 
 1. Select create new access token
@@ -26,6 +21,26 @@ By creating access tokens for your Observability data, you are able to configure
 3. Select create token
     > Pay attention: Make sure you copy this token to your clipboard, because you'll need it in a few steps.
 4. Click continue
+
+### Add Grafana Datasource
+
+1. Go to [Grafana](https://grafana.avisi.cloud/datasources)
+2. Click the `Add data source` button
+3. Select Prometheus
+4. Fill out the following details:
+    - Name: <Your cluster name>
+    - URL: https://prometheus-eu-west-1.avisi.cloud/api/prom
+    - Enable Basic auth
+        - User: grafana
+        - Password: \<Your access token>
+5. Click `Save & test`
+
+![add datasource](/img/add-datasource.png)
+## References
+
+- [Add a grafana datasource](https://grafana.com/docs/grafana/latest/datasources/add-a-data-source/)
+- [Grafana datasource management](https://grafana.com/docs/grafana/latest/administration/data-source-management/)
+
 
 ## Next assignment
 
