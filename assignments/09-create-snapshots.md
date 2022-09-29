@@ -60,3 +60,6 @@ Flags:
   -p, --pvc string              Name of the persistent volume to snapshot
   -s, --snapshot-class string   CSI volume snapshot class. If empty, use default volume snapshot class
 ```
+## Next assignment
+
+[10. Cluster Lifecycle](/assignments/10-cluster-lifecycle.md)

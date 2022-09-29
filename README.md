@@ -2,7 +2,7 @@
 
 ![Avisi Cloud Logo](/img/avisi-cloud-logo-black.png)
 
-This repository contains instructions for the AME & GitOps workshop.
+This repository contains instructions for the AME & GitOps workshop. In this workshop you will manage a cluster's lifecycle, deploy node pools, work with FluxCD & GitOps and more.
 
 ## Workshop
 
@@ -17,6 +17,7 @@ This repository contains instructions for the AME & GitOps workshop.
 - [07. Configure grafana](assignments/07-configure-grafana.md)
 - [08. Upgrade cluster](assignments/08-upgrade-cluster.md)
 - [09. Create snapshots](assignments/09-create-snapshots.md)
+- [10. Cluster Lifecycle](assignments/10-cluster-lifecycle.md)
 
 ### References
 
