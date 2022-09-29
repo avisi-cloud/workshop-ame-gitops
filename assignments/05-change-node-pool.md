@@ -4,7 +4,7 @@ Modify a node pool within your cluster. You can do this from the [Console](https
 
 ## Tasks
 
-- Switch the node pool type from `t3.medium` to `t3.large`.
+- Switch the node pool "database" type from `t3.medium` to `t3.large`.
 - Observe the replacement of nodes within your cluster. What happens when a node is being replaced?
 - Add a label to your node pool.
 
