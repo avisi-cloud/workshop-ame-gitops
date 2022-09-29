@@ -1,0 +1,10 @@
+bases:
+  - github.com/stefanprodan/podinfo/kustomize?ref=4.0.2
+
+namespace: podinfo
+resources:
+  - ns.yaml
+  - ingress.yaml
+
+patches:
+  - deployment.yaml

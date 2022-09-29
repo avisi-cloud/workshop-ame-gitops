@@ -1,0 +1,45 @@
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: snapshottest
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: data
+  namespace: snapshottest
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 1Gi
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app
+  namespace: snapshottest
+spec:
+  selector:
+    matchLabels:
+      app: snapshottest
+  template:
+    metadata:
+      labels:
+        app: snapshottest
+    containers:
+    - name: app
+      image: centos
+      command: ["/bin/sh"]
+      args: ["-c", "while true; do echo $(date -u) >> /data/out.txt; sleep 5; done"]
+      volumeMounts:
+      - name: persistent-storage
+        mountPath: /data
+      resources: {}
+    volumes:
+    - name: persistent-storage
+      persistentVolumeClaim:
+        claimName: data
+---
