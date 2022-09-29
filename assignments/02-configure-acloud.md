@@ -16,6 +16,8 @@ You can use our acloud CLI tool to;
 - Start a shell using `acloud` so you can use `kubectl` to interact with your cluster.
 - List the nodes in the cluster using `kubectl`
 - Create a new node pool called `database` for your cluster. Use `t3.medium` for `node-type` and `1` for `node-count`.
+- Watch the progress using the 'View activity' link on your cluster details page.
+- Verify that it joined the cluster using `kubectl`.
 
 ## References
 
