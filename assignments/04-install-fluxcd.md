@@ -2,10 +2,12 @@
 
 We will now be installing fluxcd and integrating it with your Kubernetes cluster.
 
+**If you are doing this with a team: these steps should only be done once per cluster**
+
 ## Tasks
 
 - [Install fluxcd](https://fluxcd.io/flux/installation/) locally (`brew install fluxcd/tap/flux`)
-- [Fork this repository](https://github.com/avisi-cloud/workshop-ame-gitops/fork) to your own Github profile or organisation.
+- [Fork this repository](https://github.com/avisi-cloud/workshop-ame-gitops/fork) to your own Github profile or organisation. (Only one person per team should do this. You should give your other team members access to the forked repository.)
 - Bootstrap fluxcd in your cluster (See below).
 - Observe Kubernetes deployments being installed in your cluster (`kubectl get deploy -A`).
 
