@@ -27,7 +27,7 @@ export GITHUB_TOKEN=<my-token>
 
 flux bootstrap github \
   --owner=<your user name> \
-  --repository=workshopt-ame-gitops \
+  --repository=workshop-ame-gitops \
   --branch=main \
   --path=clusters/workshop \
   --personal
