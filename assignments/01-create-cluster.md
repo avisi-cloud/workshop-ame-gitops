@@ -9,7 +9,7 @@ On the create cluster page, you can enter the following information:
 - Select the Cloud Provider `AWS`, use as region `eu-west-1`.
 - For `version`, select the stable channel `v1.23-stable`.
 - Name: enter your cluster name
-- Configure a node pool with the name `workers`, type `t3.large` and size `3`.
+- Configure a node pool with the name `workers`, type `t3.large` and size `2`.
 
 ## References
 
